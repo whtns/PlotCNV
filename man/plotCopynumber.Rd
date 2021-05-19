@@ -4,10 +4,18 @@
 \alias{plotCopynumber}
 \title{plotCopynumber}
 \usage{
-plotCopynumber(ReturnClass, genome = "hg19")
+plotCopynumber(
+  ReturnClass,
+  genome = "hg19",
+  segment_scale = c("scna", "loh", "discrete"),
+  rescale = TRUE,
+  outliers = TRUE
+)
 }
 \arguments{
 \item{ReturnClass}{Class of type CNV. REQUIRED}
+
+\item{segment_scale}{whether to plot CNV as discrete colors or continuous (heatmap)}
 }
 \description{
 Print Genome wide copynumber plot

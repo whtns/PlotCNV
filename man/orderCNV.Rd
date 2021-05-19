@@ -4,7 +4,7 @@
 \alias{orderCNV}
 \title{orderCNV}
 \usage{
-orderCNV(ReturnClass, descending = TRUE)
+orderCNV(ReturnClass, descending = TRUE, reorder = TRUE)
 }
 \arguments{
 \item{ReturnClass}{Class of type CNVvault created using prepareCNV. REQUIRED}
